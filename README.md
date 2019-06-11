@@ -1,2 +1,2 @@
-# dot-files
-some of my private dot files
+# Dot-Files
+Some of my dot files for terminal configuration.
