@@ -84,24 +84,26 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias l.="ls -d .*"
-alias typora="open -a typora"
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+# path
+# export CPLUS_INCLUDE_PATH=/usr/local/include
+# export LIBRARY_PATH=/usr/local/lib
+# export PATH=${PATH}:/usr/local/mysql/bin/
+ 
+# mobile dev
+# export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+# export ANDROID_HOME=$HOME/Library/Android/sdk
+# export PATH=$PATH:$ANDROID_HOME/tools
+# export PATH=$PATH:$ANDROID_HOME/tools/bin
+# export PATH=$PATH:$ANDROID_HOME/platform-tools
+# export PATH=$PATH:$ANDROID_HOME/emulator
+
+# brew
+# alias upgrade="brew upgrade && brew cask upgrade"
+# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+# daily
+# alias chrome="open -a \"/Applications/Google Chrome.app\""
+# alias typora="open -a typora"
 alias python="python3"
 alias pip="pip3"
-
-export CPLUS_INCLUDE_PATH=/usr/local/include
-export LIBRARY_PATH=/usr/local/lib
-export PATH=${PATH}:/usr/local/mysql/bin/
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
-alias chrome="open -a \"/Applications/Google Chrome.app\""
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/emulator
-
-export PATH=$PATH:~/flutter/bin
-export ANDROID_NDK=~/android-ndk-r17c
-alias upgrade="brew upgrade && brew cask upgrade"
