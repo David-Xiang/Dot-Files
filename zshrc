@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/xiangdongwei/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -90,14 +90,6 @@ alias l.="ls -d .*"
 # export LIBRARY_PATH=/usr/local/lib
 # export PATH=${PATH}:/usr/local/mysql/bin/
  
-# mobile dev
-# export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
-# export ANDROID_HOME=$HOME/Library/Android/sdk
-# export PATH=$PATH:$ANDROID_HOME/tools
-# export PATH=$PATH:$ANDROID_HOME/tools/bin
-# export PATH=$PATH:$ANDROID_HOME/platform-tools
-# export PATH=$PATH:$ANDROID_HOME/emulator
-
 # brew
 # alias upgrade="brew upgrade && brew cask upgrade"
 # export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
